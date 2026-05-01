@@ -69,7 +69,7 @@ async def fetch_p2p_data(method_name, method_id):
 
 # --- 3. TELEGRAM COMMANDS ---
 async def start(u: Update, c: ContextTypes.DEFAULT_TYPE):
-    await u.message.reply_text("🇰🇪 *Binance Kenya P2P*\n/mpesa - Safaricom M-Pesa\n/bank - All Banks\n/compare - M-Pesa vs Bank", parse_mode='Markdown')
+    await u.message.reply_text("🇰🇪 *Binance Kenya P2P(Made wt ♥️: P.o.Riot🍄*\n/mpesa - Safaricom M-Pesa\n/bank - All Banks\n/compare - M-Pesa vs Bank", parse_mode='Markdown')
 
 async def mpesa_cmd(u: Update, c: ContextTypes.DEFAULT_TYPE):
     # Standard ID for Kenya M-Pesa
